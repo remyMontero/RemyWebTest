@@ -6,17 +6,17 @@ pipeline{
     stages{
         stage ("build"){
             steps{
-                echo 'Jenkins building the application'
+                echo 'Jenkins File building the application'
             }
         }
         stage ("test"){
             steps{
-                echo 'Jenkins testing the application'
+                echo 'Jenkins File testing the application'
             }
         }
         stage ("deploy"){
             steps{
-                echo 'Jenkins deploying the application'
+                echo 'Jenkins File deploying the application'
             }
         }
     }
