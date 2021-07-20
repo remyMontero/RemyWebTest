@@ -1,8 +1,8 @@
-#toplevel
+//toplevel
 pipeline{
-    #where to execute
+    //where to execute
     agent any
-    #where all of the work happens
+    //where all of the work happens
     stages{
         stage ("build"){
             steps{
