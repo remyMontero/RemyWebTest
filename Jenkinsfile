@@ -1,22 +1,22 @@
-#toplevel
+//toplevel
 pipeline{
-    #where to execute
+    //where to execute
     agent any
-    #where all of the work happens
+    //where all of the work happens
     stages{
         stage ("build"){
             steps{
-                echo 'building the application'
+                echo 'Jenkins building the application'
             }
         }
         stage ("test"){
             steps{
-                echo 'testing the application'
+                echo 'Jenkins testing the application'
             }
         }
         stage ("deploy"){
             steps{
-                echo 'deploying the application'
+                echo 'Jenkins deploying the application'
             }
         }
     }
