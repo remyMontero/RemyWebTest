@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage ("build"){
             steps{
-                echo 'Jenkins building the application'
+                echo 'Jenkins building the application after changes...'
             }
         }
         stage ("test"){
